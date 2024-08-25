@@ -1,0 +1,3 @@
+canonical-sphinx
+sphinx-autobuild
+sphinx_substitution_extensions
