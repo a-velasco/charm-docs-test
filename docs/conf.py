@@ -18,13 +18,13 @@ import os
 ############################################################
 
 # Product name
-project = 'Charm stuff'
+project = 'Data Platform'
 author = 'Canonical Ltd.'
 
 # The title you want to display for the documentation in the sidebar.
 # You might want to include a version number here.
 # To not display any title, set this option to an empty string.
-html_title = 'Charm docs'
+html_title = 'Charmed PostgreSQL'
 
 # The default value uses CC-BY-SA as the license and the current year
 # as the copyright year.
@@ -71,7 +71,8 @@ html_context = {
     # For example: "ubuntu.com/lxd" or "microcloud.is"
     # If there is no product website, edit the header template to remove the
     # link (see the readme for instructions).
-    'product_page': 'https://charmhub.io/',
+    'product_page': 'canonical.com/data/postgresql',
+    'data_platform_page': 'https://canonical.com/data',
 
     # Add your product tag (the orange part of your logo, will be used in the
     # header) to ".sphinx/_static" and change the path here (start with "_static")
@@ -81,7 +82,7 @@ html_context = {
     # Change to the discourse instance you want to be able to link to
     # using the :discourse: metadata at the top of a file
     # (use an empty value if you don't want to link)
-    'discourse': '',
+    'discourse': 'https://discourse.charmhub.io',
 
     # Change to the Mattermost channel you want to link to
     # (use an empty value if you don't want to link)
@@ -91,10 +92,17 @@ html_context = {
     # (use an empty value if you don't want to link)
     'matrix': '',
 
+    # Github URL for charms
+    'github_url_vm': 'https://github.com/canonical/postgresql-operator',
+    'github_url_k8s': 'https://github.com/canonical/postgresql-k8s-operator',
+    
+    # Charmhub URL
+    'charmhub_url_vm': 'https://charmhub.io/postgresql',
+    'charmhub_url_k8s': 'https://charmhub.io/postgresql-k8s',
+    
     # Change to the GitHub URL for your project
     # This is used, for example, to link to the source files and allow creating GitHub issues directly from the documentation.
-    'github_url': 'https://github.com/rkratky/charm-docs-test',
-
+    'github_url_vm': 'https://github.com/a-velasco/charm-docs-test',
     # Change to the branch for this version of the documentation
     # 'github_version': 'main',
 

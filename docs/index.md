@@ -1,33 +1,76 @@
-# Charmed MongoDB
 
 :::{toctree}
 :maxdepth: 2
 :hidden: true
-
-mongodb-vm/index
-mongodb-vm/tutorial/index
-mongodb-vm/howto/index
-mongodb-vm/reference/index
-mongodb-vm/explanation/index
+postgresql-all/tutorial/index
 :::
 
 :::{toctree}
-:caption: ⎯⎯⎯⎯⎯⎯⎯⎯⎯
 :maxdepth: 2
 :hidden: true
-
-mongodb-k8s/index
-mongodb-k8s/tutorial/index
-mongodb-k8s/howto/index
-mongodb-k8s/reference/index
-mongodb-k8s/explanation/index
+postgresql-all/howto/index
 :::
 
-Documentation for Charmed MongoDB.
+:::{toctree}
+:maxdepth: 2
+:hidden: true
+postgresql-all/reference/index
+:::
 
+:::{toctree}
+:maxdepth: 2
+:hidden: true
+postgresql-all/explanation/index
+:::
 
-## In this documentation
+# Charmed PostgreSQL
 
+Charmed PostgreSQL is an open-source software operator designed to deploy and operate object-relational databases on IAAS/VM. It packages the powerful database management system [PostgreSQL](https://www.postgresql.org/) into a charmed operator for deployment with [Juju](https://juju.is/docs/juju).
+
+This charm offers automated operations management from day 0 to day 2. It is equipped with several features to securely store and scale complicated data workloads, including TLS encryption, backups, monitoring, password rotation, and easy integration with client applications.
+
+Charmed PostgreSQL meets the need of deploying PostgreSQL in a structured and consistent manner while providing flexibility in configuration. It simplifies deployment, scaling, configuration and management of relational databases in large-scale production environments reliably.
+ 
+This charmed operator is made for anyone looking for a comprehensive database management interface, whether for operating a complex production environment or simply as a playground to learn more about databases and charms.
+
+# In this documentation
+
+::::{grid} 1 1 2 2
+
+:::{grid-item-card} [Tutorial](/index)
+:link: tutorial/index
+:link-type: doc
+
+**Get started** - hands-on introduction to administering Launchpad
+:::
+
+:::{grid-item-card} [How-to guides](/index)
+:link: howto/index
+:link-type: doc
+
+**Step-by-step guides** covering key operations and common tasks
+:::
+
+::::
+
+::::{grid} 1 1 2 2
+:reverse:
+
+:::{grid-item-card} [Reference](/index)
+:link: reference/index
+:link-type: doc
+
+**Explanations** - conceptual information
+:::
+
+:::{grid-item-card} [Explanation](/index)
+:link: explanation/index
+:link-type: doc
+
+**Discussion and clarification** of key topics
+:::
+
+::::
 
 
 ## Project and community
